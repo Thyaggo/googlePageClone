@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner_header{
+    display: flex;
+    justify-content: end;
+}
+
+.nav{
+    display: flex;
+    margin: 8px;
+    padding-right: 15px;
+}
+
+.nav li{
+    margin: auto;
+    list-style: none;
+    padding-left: 15px;
+    font-size: 1.3rem;
+}
+.boton{
+    font-size: 1.5rem;
+    margin: 10px 10px;
+    padding: 10px 25px;
+    background-color: rgb(67, 133, 255);
+    border: 0;
+    border-radius: 5px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 32vh;
+    margin-bottom: 20px;
+}
+
+.navegador{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 0.2px solid;
+    border-color: rgb(216, 216, 216);
+}
+
+.barra{
+    padding: 0 15px;
+    font-size: 1.6rem;
+    width: 470px;
+    height: 40px;
+    border:none;
+    outline:none;
+}
+
+.navegador:hover{
+    box-shadow:0 1px 6px 0 #20212447;
+}
+
+.main_botones{
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_botones button{
+    background-color: rgb(240, 240, 240);
+    border: 0px;
+    height: 36px;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin: 0 7px;
+}
+
+.main_botones button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
+
+.icon_search{
+    background-image: url(./png-clipart-google-search-android-search-box-search-engine-optimization-loupe-technic-symbol-thumbnail.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.icon_micro{
+    background-image: url(./googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+    padding:10px;
+}
+
+.footer_left{
+    justify-self: left;
+}
+
+.footer_right{
+    justify-self: right;
+}
+
+.footer_left a{
+    text-decoration: none;
+    margin: 10px;
+    color: #5f6368;
+}
+
+.footer_right a{
+    text-decoration: none;
+    margin: 10px;
+    color: #5f6368;
+}
